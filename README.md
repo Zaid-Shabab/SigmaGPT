@@ -45,3 +45,14 @@ The React frontend handles the chat interface and user interactions.
 When a user sends a message, the frontend communicates with the Node.js and Express backend. The backend sends the request to the OpenAI API and returns the response to the frontend.
 
 Conversation data is stored in MongoDB so previous chats can be accessed and managed later.
+
+
+## Screenshots
+
+### Chat Interface
+
+![SigmaGPT Chat Interface](./Screenshot%202026-09-22%20163728.png)
+
+### Chat History
+
+![SigmaGPT Chat History](./Screenshot%202026-09-22%20163755.png)
