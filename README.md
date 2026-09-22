@@ -1,50 +1,47 @@
 # SigmaGPT
 
-A full-stack AI chat application inspired by ChatGPT, built using React, Node.js, Express, MongoDB, and OpenAI API.
+SigmaGPT is a full-stack AI chat application built with React, Node.js, Express, MongoDB, and the OpenAI API.
+
+It is a ChatGPT-inspired application where users can chat with an AI assistant, create multiple conversations, and manage their previous chats through a simple interface.
 
 ## Live Demo
 
 https://sigmagpt-frontend-c9fk.onrender.com/
 
-## GitHub Repository
-
-https://github.com/Zaid-Shabab/SigmaGPT
-
 ## Features
 
-* Chat with an AI assistant
-* Create and manage multiple conversations
-* View previous chat history
-* Delete conversations
-* Dark / Light mode
-* Markdown support for AI responses
-* Code syntax highlighting
-* Simple typing effect for AI responses
-* MongoDB database integration
+- AI-powered chat using the OpenAI API
+- Create and manage multiple conversations
+- Save and view previous chat history
+- Delete conversations
+- Markdown support for AI responses
+- Code syntax highlighting
+- Typing effect for AI responses
+- Dark and light mode
+- MongoDB-based conversation storage
 
 ## Tech Stack
 
 ### Frontend
 
-* React
-* Vite
-* CSS
-* React Markdown
-* Highlight.js
+- React
+- Vite
+- CSS
+- React Markdown
+- Highlight.js
 
 ### Backend
 
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* OpenAI API
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- OpenAI API
 
-## Run Locally
+## How It Works
 
-### Clone the repository
+The React frontend handles the chat interface and user interactions.
 
-```bash
-git clone https://github.com/Zaid-Shabab/SigmaGPT.git
-cd SigmaGPT
-```
+When a user sends a message, the frontend communicates with the Node.js and Express backend. The backend sends the request to the OpenAI API and returns the response to the frontend.
+
+Conversation data is stored in MongoDB so previous chats can be accessed and managed later.
